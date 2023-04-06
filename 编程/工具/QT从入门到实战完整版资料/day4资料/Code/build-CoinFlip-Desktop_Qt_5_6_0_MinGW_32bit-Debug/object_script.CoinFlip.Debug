@@ -1,0 +1,12 @@
+INPUT(
+./debug\main.o
+./debug\mainscene.o
+./debug\mypushbutton.o
+./debug\chooselevelscene.o
+./debug\playscene.o
+./debug\qrc_res.o
+./debug\moc_mainscene.o
+./debug\moc_mypushbutton.o
+./debug\moc_chooselevelscene.o
+./debug\moc_playscene.o
+);

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>625</width>
+    <height>475</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>60</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>登陆</string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="toolButton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>110</y>
+     <width>111</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>海贼旗</string>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/Image/OnePiece.png</normaloff>:/Image/OnePiece.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>32</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextBesideIcon</enum>
+   </property>
+   <property name="autoRaise">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>170</y>
+     <width>55</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>性别</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QRadioButton" name="rBtnMan">
+      <property name="text">
+       <string>男</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="rBtnWoman">
+      <property name="text">
+       <string>女</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>170</y>
+     <width>67</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>婚否</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QRadioButton" name="radioButton_3">
+      <property name="text">
+       <string>已婚</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="radioButton_4">
+      <property name="text">
+       <string>未婚</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_3">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>250</y>
+     <width>91</width>
+     <height>114</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>问卷调查</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <widget class="QCheckBox" name="checkBox">
+      <property name="text">
+       <string>价格实惠</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="checkBox_2">
+      <property name="text">
+       <string>口感好</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="checkBox_3">
+      <property name="text">
+       <string>服务到位</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="cBox">
+      <property name="text">
+       <string>老板娘好</string>
+      </property>
+      <property name="tristate">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>60</y>
+     <width>331</width>
+     <height>291</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
