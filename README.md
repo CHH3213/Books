@@ -60,6 +60,8 @@
   - vim
   - CMake
   - Git
+  - docker
+  - qt
 - 操作系统
   - Linux命令行与shell脚本编程大全（第3版）
   - 鸟哥的 Linux 私房菜
